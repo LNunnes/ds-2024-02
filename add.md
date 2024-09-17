@@ -12,6 +12,11 @@
 >   2. Requisitos de atributos de qualidade: Especificados usando cenários de atributos de qualidade.
 >   3. Restrições: Decisões de design que são definidas por fatores externos/regras de negócio.
 
+> O método ADD é um método de decomposição recursiva. O sistema geral é dividido em uma coleção de "subsistemas conceituais", que por sua vez são decompostos em "componentes conceituais".
+> Como o método é recursivo, os mesmos passos são aplicados tanto para a decomposição do sistema quanto dos subsistemas conceituais. A cada etapa principal do método ADD, os drivers arquiteturais
+> (fatores que influenciam a arquitetura) do elemento que está sendo decomposto são identificados. Em seguida, o elemento é decomposto, e essa decomposição é verificada de acordo com os requisitos
+> de atributos de qualidade e os casos de uso que representam as funcionalidades essenciais.
+
 > O ADD segue essencialmente uma estratégia de “Planejar, Fazer e Verificar”:
 >   1. Planejar: atributos de qualidade e restrições de projeto são considerados para selecionar quais tipos de elementos serão usados ​​na arquitetura;
 >   2. Do: Os elementos são instanciados para satisfazer os requisitos dos atributos de qualidade assim como requisitos funcionais;
