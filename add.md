@@ -1,7 +1,7 @@
 # Trabalho ADD - Attribute-driven design
 
 > Attribute Driven Design (ADD) foi desenvolvido pelo Software Engineering Institute (SEI) na Carnegie Mellon University.
-> Foi criado como uma abordagem ao design de software que se concentra em identificar e modelar atributos (características) de um sistema que são importantes para seus usuários e partes interessadas,
+> É uma técnica de design arquitetural usada para criar a arquitetura de um sistema de software com base nos atributos de qualidade (como desempenho, segurança, escalabilidade), que o sistema deve atender ao invés de focar nas funcionalidades. Foi criado como uma abordagem ao design de software que se concentra em identificar e modelar atributos (características) de um sistema que são importantes para seus usuários e partes interessadas,
 > com o objetivo de criar sistemas que sejam altamente adaptáveis, fáceis de manter e escaláveis, e que atendam às necessidades de usuários e partes interessadas.
 
 > Trata-se de um método sistemático e passo a passo para projetar a arquitetura de software. Ele segue um processo de decomposição recursiva onde, em cada estágio da decomposição,
